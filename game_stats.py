@@ -6,6 +6,9 @@ class GameStats:
 		self.settings = ai_game.settings
 		self.reset_stats()
 
+		#Start Alien Invasion in an actice stage
+		self.game_active = True
+
 	def reset_stats(self):
 		"""Initialize statistics that can change during game."""
 		self.ships_left = self.settings.ship_limit
