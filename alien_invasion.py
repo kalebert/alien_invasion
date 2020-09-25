@@ -80,6 +80,7 @@ class AlienInvasion:
 			self.settings.initialize_dynamic_settings( )
 
 			self.stats.game_active = True
+			self.sb.prep_score()
 
 			# Get rid of any remaining aliens or bullets
 			self.aliens.empty()
